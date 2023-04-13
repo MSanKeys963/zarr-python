@@ -26,6 +26,9 @@ Enhancements
 * Implement more extensive fallback of getitem/setitem for orthogonal indexing.
   By :user:`Andreas Albert <AndreasAlbertQC>` :issue:`1029`.
 
+* Getitems supports ``meta_array``.
+  By :user: 'Mads R. B. Kristensen <madsbk>' :issue:`1131`.
+
 Documentation
 ~~~~~~~~~~~~~
 
@@ -37,6 +40,9 @@ Bug fixes
 
 * Fix the conda-forge error. Read :issue:`1347` for detailed info.
   By :user:`Josh Moore <joshmoore>` :issue:`1364` and :issue:`1367`.
+
+* Fix ``ReadOnlyError`` when opening V3 store via fsspec reference file system.
+  By :user:`Joe Hamman <jhamman>` :issue:`1383`.
 
 .. _release_2.14.2:
 
